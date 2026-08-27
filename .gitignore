@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.claude/
+
+# Logs
+*.log
+logs/
+
+# Runtime files
+*.pid
+beast.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model files (large, should be downloaded)
+*.onnx
+*.pt
+*.pth
+*.bin
+
+# Training data
+training_data/
+
+# Data files
+*.db
+*.db-shm
+*.db-wal
+*.npy
+*.wav
+*.onnx.data
+
+# Qodo
+.qodo/

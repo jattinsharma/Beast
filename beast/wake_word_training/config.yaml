@@ -1,0 +1,22 @@
+piper_sample_generator_path: "C:\\Program Files\\Python313\\Lib\\site-packages\\piper_tts"
+output_dir: "C:\\Beast\\beast\\wake_word_training\\output"
+model_name: "hey_beast"
+target_phrase: ["hey beast"]
+n_samples: 100
+n_samples_val: 20
+tts_batch_size: 10
+rir_paths: []
+background_paths: []
+background_paths_duplication_rate: []
+augmentation_rounds: 2
+augmentation_batch_size: 8
+feature_data_files:
+  positive: ""
+  adversarial_negative: ""
+batch_n_per_class: 16
+false_positive_validation_data_path: "C:\\Beast\\beast\\wake_word_training\\false_positive_validation.npy"
+steps: 1000
+max_negative_weight: 10
+target_false_positives_per_hour: 0.5
+model_type: "dnn"
+layer_size: 128

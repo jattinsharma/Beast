@@ -1,0 +1,25 @@
+augmentation_batch_size: 8
+augmentation_rounds: 2
+background_paths: []
+background_paths_duplication_rate: []
+batch_n_per_class: 16
+custom_negative_phrases: []
+false_positive_validation_data_path: C:\Beast\beast\wake_word_training\false_positive_validation.npy
+feature_data_files:
+  adversarial_negative: ''
+  negative: C:/Beast/beast/wake_word_training/trained_model\negative_features_train.npy
+  positive: C:/Beast/beast/wake_word_training/trained_model\positive_features_train.npy
+layer_size: 128
+max_negative_weight: 10
+model_name: hey_beast
+model_type: dnn
+n_samples: 50
+n_samples_val: 29
+output_dir: C:\Beast\beast\wake_word_training\trained_model
+piper_sample_generator_path: C:\Beast\beast\wake_word_training\piper_sample_generator
+rir_paths: []
+steps: 2500
+target_false_positives_per_hour: 0.5
+target_phrase:
+- hey beast
+tts_batch_size: 10

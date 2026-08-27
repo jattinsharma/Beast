@@ -1,0 +1,11 @@
+{
+  "microphone": 1,
+  "wake_sensitivity": 0.4,
+  "wake_word": null,
+  "wake_word_model": "hey_jarvis_v0.1",
+  "model_path": null,
+  "audio_sample_rate": 16000,
+  "audio_chunk_size": 1024,
+  "log_level": "INFO",
+  "audio_gain": 5.0
+}

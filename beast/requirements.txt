@@ -1,0 +1,5 @@
+pystray>=0.19.5
+openwakeword>=0.6.0
+Pillow>=12.3.0
+onnxscript>=0.7.1
+sounddevice>=0.4.6
